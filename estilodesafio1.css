@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 40px;
+    
+    border: 1px solid #212121;
+    background-color: #212121;
+
+}
+
+div{ /*referente ao logo*/
+    font-family: Helvetica;
+    font-size: large;
+    position: absolute;
+    color: white;
+    left: 15%;
+    bottom:auto;
+    margin: 10px;
+    
+}
+#home{
+    font-family: Helvetica;
+    font-size: large;
+    position: fixed;
+    color: white;
+    left: 65%;
+    margin-top: 5px;
+    text-decoration: none;
+
+}
+
+#home:hover{
+    position: fixed;
+    padding: 5px;
+    background-color: #f9a825;
+    border-radius: 15px;
+
+}
+#ctt{
+    font-family: Helvetica;
+    font-size: large;
+    position: fixed;
+    color: white;
+    left: 71%;
+    margin-top: 5px;
+    text-decoration: none;
+
+}
+#ctt:hover{
+    position: fixed;
+    padding: 5px;
+    background-color: #f9a825;
+    border-radius: 15px;
+
+}
+
+#sobre{
+    font-family: Helvetica;
+    font-size: large;
+    position: fixed;
+    color: white;
+    left: 78%;
+    margin-top: 5px;
+    text-decoration: none;
+
+}
+#sobre:hover{
+    position: fixed;
+    padding: 5px;
+    background-color: #f9a825;
+    border-radius: 15px;
+
+}
+
+
+main{
+    width: 50%;
+    height: 200px;
+    border-right:1px solid black ;
+    position: absolute;
+    top: 300px;
+
+}
+
+article{
+    width: 40%;
+    position: absolute;
+    left: 55%;
+    top: 30%;
+    font-family: Helvetica;
+    
+}
+
+
+
+#tiacademy{
+    font-family: Helvetica;
+    font-size: large;
+    position: absolute;
+    color: white;
+    left: 47%;
+    margin: 25px;
+
+}
+
+footer{
+    width: 100%;
+    height: 80px;
+    border: 1px solid #212121;
+    background-color: #212121;
+    position: absolute;
+    bottom: 0;
+
+}
+
+
+#caixaemail{
+    border: 1px solid black;
+    width: 50%;
+    height: 25px;
+    border-radius: 6px;
+}
+
+#caixa_form{
+    width: 50%;
+    position: absolute;
+    left: 111%;
+    bottom: 50px;
+
+}
+
+#font_email{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#buttonbox{
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
